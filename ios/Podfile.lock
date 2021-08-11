@@ -1,0 +1,39 @@
+PODS:
+  - ext_video_player (0.0.3):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - OrderedSet (5.0.0)
+
+DEPENDENCIES:
+  - ext_video_player (from `.symlinks/plugins/ext_video_player/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OrderedSet
+
+EXTERNAL SOURCES:
+  ext_video_player:
+    :path: ".symlinks/plugins/ext_video_player/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+
+SPEC CHECKSUMS:
+  ext_video_player: 725a141c13227c84efe4f5df259c6cf3cbf03f7d
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+
+PODFILE CHECKSUM: 389a78483081e4a0a891deeabfb76cfa6f2901df
+
+COCOAPODS: 1.10.1
